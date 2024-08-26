@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+}
+
+header {
+
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 600px;
+  
+
+}
+
+.content {
+
+  background-color: #E5D2B8;
+
+}
+
+
+
+/*apartir daqui é o codigo de tentativa para mudar o carousel do bootstrap*/
+/* Estilo para o SVG da primeira slide */
+#carouselExample .carousel-item:nth-child(1) svg rect {
+  fill: #839472; /* Cor de fundo do retângulo do primeiro slide */
+}
+
+#carouselExample .carousel-item:nth-child(1) svg text {
+  fill: #E4E1D8; /* Cor do texto do primeiro slide */
+}
+
+/* Estilo para o SVG do segundo slide */
+#carouselExample .carousel-item:nth-child(2) svg rect {
+  fill: #839472; /* Cor de fundo do retângulo do segundo slide */
+}
+
+#carouselExample .carousel-item:nth-child(2) svg text {
+  fill: #E4E1D8; /* Cor do texto do segundo slide */
+}
+
+/* Estilo para o SVG do terceiro slide */
+#carouselExample .carousel-item:nth-child(3) svg rect {
+  fill: #839472; /* Cor de fundo do retângulo do terceiro slide */
+}
+
+#carouselExample .carousel-item:nth-child(3) svg text {
+  fill: #E4E1D8; /* Cor do texto do terceiro slide */
+}
+
+/* Estilo para os controles do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000000; /* Cor de fundo dos ícones de controle */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(1); /* Inverte a cor dos ícones para contraste com o fundo */
+}
+
+/*fim do código que nao muda bosta nenhuma*/
+
+/*aqui é as tegs para mudar a cor do header*/
+
+
+/*aqui é finaliza as tags*/
+
+
+
+.item {
+ font-size: 17px; /* Tamanho da fonte */
+ color: #839472; /* Cor do texto */
+ margin: 0 30px; /* Espaço horizontal entre os itens (ajustado) */
+ display: inline-block; /* Exibe os itens em linha */
+}
+
+.imagem-logo {
+ width: 40%;
+ height: 30vh;
+ display: flex;
+ align-items: center; /* Centraliza verticalmente */
+ justify-content: center; /* Centraliza horizontalmente */
+ background-color: #e5e0d8(111, 111, 111);
+ margin: 0 auto; /* Centraliza horizontalmente se necessário */
+ margin-top: 10%;
+}
+
+
+.breve-description {
+  text-align: center; /* Centraliza o texto */
+  font-size: 24px; /* Tamanho da fonte */
+  color: #E4E1D8; /* Cor do texto */
+  margin: 100px 0; /* Espaço acima e abaixo da frase */
+}
+
+.imagem-antecedente {
+  width: 20%;
+  height: 20vh;
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  background-color: #809671(111, 111, 111);
+  margin: 0 auto; /* Centraliza horizontalmente se necessário */
+  margin-top: 10%;
+}
+
+.promotional-materials {
+  text-align: center; /* Centraliza o texto */
+  font-size: 24px; /* Tamanho da fonte */
+  color: #809671; /* Cor do texto */
+  margin: 100px 0; /* Espaço acima e abaixo da frase */
+}
+
+.produtos-sections {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os cards se movam para a linha seguinte */
+  justify-content: center; /* Centraliza os cards horizontalmente */
+  gap: 150px; /* Espaço entre os cards */
+  padding: 20px; /* Espaçamento interno da seção */
+}
+
+.produtos-sections img{
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Alinha o conteúdo dos cards verticalmente e horizontalmente ao centro */
+  background-color: #000000;
+  width: 200px;
+  height: 200px;
+  color: white; /* Cor do texto nos cards */
+  font-size: 20px; /* Tamanho da fonte dos cards */
+}
+
+.contact-us-section {
+  text-align: center; /* Centraliza o texto */
+  font-size: 24px; /* Tamanho da fonte */
+  color: #809671; /* Cor do texto */
+  margin: 100px 0; /* Espaço acima e abaixo da frase */
+}
+
+.contatos-img {
+  width: 20%;
+  height: 20vh;
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  background-color: rgb(111, 111, 111);
+  margin: 0 auto; /* Centraliza horizontalmente se necessário */
+}
+
+.footer {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  background-color: #705D3F;
+}
+
+
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.cabeçalho {
+  width: 100%;
+  height: 15vh;
+  background-color: #3B2B11;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.cabeçalho a
+ {
+  text-decoration: none;
+  
+ }
+
+.cabeçalho img { width:20vw;
+border: 3px solid black;
+height: 10vh;}
+
+.cabeçalho input {
+  height: 8vh;
+  width:30vw ;
+  border-radius: 30px;
+}
+
+
+.adote {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction:column ;
+}
+
+.adote img {
+  border: 3px solid black;
+  height: 50vh;
+  width: 60vw;
+}
