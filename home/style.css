@@ -49,7 +49,24 @@ header {
   gap: 600px;
 }
 
-/*Aqui é as imagens do background*/
+.content {
+
+  background-color: #E5D2B8;
+
+}
+
+.search-input {
+    /* Ajuste a margem para mover o campo de entrada */
+    margin-left: 20px; /* Ajuste conforme necessário */
+    /* ou use padding se for mais apropriado */
+    padding: 5px;
+    transform: translate x(50%);
+    /* Se você precisar de um posicionamento mais preciso */
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 20px; */
+}
+
 
 /*apartir daqui é o codigo de tentativa para mudar o carousel do bootstrap*/
 /* Estilo para o SVG da primeira slide */
