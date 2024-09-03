@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap">
+        <style>
+            body {
+                font-family: 'Oleo Script', cursive;
+            }
+            h1 {
+                font-family: 'Oleo Script', cursive;
+                font-weight: 700;
+            }
+            p {
+                font-family: 'Oleo Script', cursive;
+                font-weight: 400;
+            }
+        </style>
+</head>
+<body>
+    <header>
+    </header>
+    
+    <main class="flex column"> 
+        <h1>CAFE SIAMES</h1>
+        
+        <section class="login-form flex column align-center justify-center" id="login">
+            <h2>Login</h2>
+
+            <form class="login-form-gap flex column align-center" action="process_login.php" method="POST">
+                <div class="inputfield flex align-center">
+                    <img src="../public2/Component 3.png" alt="user">
+                    <input type="text" id="username" name="username" required>
+                </div>
+                
+                <div class="inputfield flex align-center">
+                    <img src="../public2/Component 4.png" alt="cadeado">
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <button type="submit">Login</button>
+                <p>Não possui uma conta? <span class="register-span">Cadastre-se</span></p>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
